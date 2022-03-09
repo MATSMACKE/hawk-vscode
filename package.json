@@ -1,0 +1,40 @@
+{
+    "name": "hawk-lang",
+    "displayName": "hawk-lang",
+    "description": "VS Code syntax highlighting for the Hawk programming language",
+    "publisher": "MatsMacke",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "hawk",
+                "aliases": [
+                    "Hawk",
+                    "hawk"
+                ],
+                "extensions": [
+                    ".hawk",
+                    ".hk"
+                ],
+                "icon": {
+                    "light": "./logo_v1.png",
+                    "dark": "./logo_v1.png"
+                },
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "hawk",
+                "scopeName": "source.hawk",
+                "path": "./syntaxes/hawk.tmLanguage.json"
+            }
+        ]
+    }
+}
