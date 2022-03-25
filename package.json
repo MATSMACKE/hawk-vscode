@@ -3,7 +3,7 @@
     "displayName": "hawk-lang",
     "description": "VS Code syntax highlighting for the Hawk programming language",
     "publisher": "MatsMacke",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "engines": {
         "vscode": "^1.58.0"
     },
