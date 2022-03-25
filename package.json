@@ -4,6 +4,7 @@
     "description": "Basic support and syntax highlighting for the Hawk programming language",
     "publisher": "MatsMacke",
     "version": "0.2.2",
+    "icon": "./logo_v1.png",
     "engines": {
         "vscode": "^1.58.0"
     },
