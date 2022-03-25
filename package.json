@@ -1,7 +1,7 @@
 {
-    "name": "hawk-lang",
-    "displayName": "hawk-lang",
-    "description": "VS Code syntax highlighting for the Hawk programming language",
+    "name": "hawk",
+    "displayName": "Hawk Syntax Highlighting",
+    "description": "Basic support and syntax highlighting for the Hawk programming language",
     "publisher": "MatsMacke",
     "version": "0.2.1",
     "engines": {

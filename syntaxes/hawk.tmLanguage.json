@@ -1,0 +1,68 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Hawk",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#multi-line-comment"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.hawk",
+				"match": "\\b(if|else|while|for|break|class|super|this|let|const|null|function|return|print|true|false|or|and|not|import|process|finder|find|equation)\\b"
+			}]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.line.double-slash.hawk",
+				"match": "//.*"
+			}]
+		},
+		"multi-line-comment": {
+			"patterns": [{
+			"name": "comment.block.hawk",
+			"match": "/\\*(.|\n)*\\*/"
+		}]
+		},
+		"functions": {
+			"patterns": [{
+				"name": "entity.name.function.hawk",
+				"match": "\\b([a-z]|[A-Y]|_)+\\b\\([^\\)]*\\)"
+			}]
+		},
+		"variables": {
+			"patterns": [{
+				"name": "variable.name.hawk",
+				"match": "\\b([a-z]|[A-Z]|_)+\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.hawk",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.hawk",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.hawk"
+}
