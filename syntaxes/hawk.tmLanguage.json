@@ -18,7 +18,7 @@
 			"include": "#comments"
 		},
 		{
-			"include": "#multi-line-comment"
+			"include": "#multi-line-comments"
 		}
 	],
 	"repository": {
@@ -34,11 +34,15 @@
 				"match": "//.*"
 			}]
 		},
-		"multi-line-comment": {
-			"patterns": [{
-			"name": "comment.block.hawk",
-			"match": "/\\*(.|\n)*\\*/"
-		}]
+		"multi-line-comments": {
+			"begin": "/\\*",
+			"captures": {
+				"0": {
+					"name": "punctuation.definition.comment.hawk"
+				}
+			},
+			"end": "\\*/",
+			"name": "comment.block.hawk"
 		},
 		"functions": {
 			"patterns": [{
