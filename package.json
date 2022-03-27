@@ -25,8 +25,8 @@
                     ".hk"
                 ],
                 "icon": {
-                    "light": "./logo_v1.png",
-                    "dark": "./logo_v1.png"
+                    "light": "./icon.png",
+                    "dark": "./icon.png"
                 },
                 "configuration": "./language-configuration.json"
             }
@@ -37,13 +37,6 @@
                 "scopeName": "source.hawk",
                 "path": "./syntaxes/hawk.tmLanguage.json"
             }
-        ],
-        "iconThemes": [
-            {
-              "id": "hawk",
-              "label": "Hawk",
-              "path": "./hawk-icon-theme.json"
-            }
-          ]
+        ]
     }
 }
