@@ -1,0 +1,11 @@
+{
+    "iconDefinitions": {
+        "_hawk_file": {
+            "iconPath": "./icon.png"
+        }
+    },
+    "fileExtensions": {
+        "hawk": "_hawk_file",
+        "hk": "_hawk_file"
+    },
+}
