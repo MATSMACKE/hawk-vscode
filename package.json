@@ -3,7 +3,7 @@
     "displayName": "Hawk Syntax Highlighting",
     "description": "Basic support and syntax highlighting for the Hawk programming language",
     "publisher": "MatsMacke",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "repository": "https://github.com/MATSMACKE/hawk-vscode.git",
     "icon": "icon.png",
     "engines": {
