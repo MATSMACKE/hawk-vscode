@@ -15,7 +15,7 @@
     "contributes": {
         "languages": [
             {
-                "id": "hawk",
+                "id": "Hawk",
                 "aliases": [
                     "Hawk",
                     "hawk"
@@ -33,7 +33,7 @@
         ],
         "grammars": [
             {
-                "language": "hawk",
+                "language": "Hawk",
                 "scopeName": "source.hawk",
                 "path": "./syntaxes/hawk.tmLanguage.json"
             }
